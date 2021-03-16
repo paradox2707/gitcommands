@@ -1,0 +1,15 @@
+git init
+
+//add all to stage
+git add .
+
+git commit
+
+// add remote branch
+git remote add <origin> <https://paradox2707:PASSWORD@github.com/paradox2707/reponame.git> 
+
+// push and track
+git push set-upstream origin master
+
+//remove not pushed commits in local branch
+git reset --hard HEAD~2 
